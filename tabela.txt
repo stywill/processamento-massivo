@@ -1,0 +1,5 @@
+CREATE EXTERNAL TABLE resultado
+(Data date ,equipe_mandante string ,equipe_visitante string ,gol_equipe_mandante int ,
+gol_equipe_visitante int ,torneio string ,idade string ,pais string,fora_pais boolean)
+ROW FORMAT DELIMITED FIELDS TERMINATED BY ','
+LOCATION '/user/cloudera/trabalho/';

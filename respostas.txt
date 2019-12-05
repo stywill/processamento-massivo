@@ -1,0 +1,44 @@
+a - quantos registro existem no dataframe
+No dataframe existem 40839 registros.
+
+b - quantas equipes únicas mandantes existem no dataframe
+No dataframe exitem 309 equipes mandantes únicas.
+
+c - quantas vezes as equipes mandantes saíram vitoriosas
+As equipes mandantes foram vitoriosas 19864 vezes
+
+d - quantas vezes as equipes visitantes saíram vitoriosas
+As equipes vistantes foram vitoriosas 11544 veses
+
+e - quantas partidas resultaram em empate
+As equipes empataram 9431 veses
+
+f - a partir de um dataframe, crie uma tabela no Hive com o nome de partida_pais com o
+total de partida em cadas país
+
+               pais|count|
++--------------------+-----+
+|          Luxembourg|  219|
+|      British Guyana|   28|
+|              Cyprus|  266|
+|            Bulgaria|  261|
+|             Réunion|   47|
+|       Guinea-Bissau|   64|
+|            Thailand|  483|
+|          Micronesia|    1|
+|                Guam|   40|
+|             Dahomey|   16|
+|             Iceland|  191|
+|             Lesotho|   99|
+|              Mexico|  392|
+|United Arab Republic|   11|
+|              Brunei|    9|
+|               Wales|  324|
+|             Denmark|  371|
+|               Egypt|  391|
+|              Malaya|   95|
+|             Namibia|  108|
++--------------------+-----+
+
+g - utilizando o hive e a tabela partida_pais, em qual país teve mais partidas.
+O pais com mais tartidas é o United States com 1144
