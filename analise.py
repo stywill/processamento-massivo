@@ -22,6 +22,10 @@ dfMandantesVitoriosos.count()
 dfVisitantesVitoriosos = df.filter(df["gol_equipe_mandante"] < df["gol_equipe_visitante"])
 dfVisitantesVitoriosos.count()
 
+#Pergunta e
+dfEmpates = df.filter(df["gol_equipe_mandante"] == df["gol_equipe_visitante"])
+dfEmpates.count()
+
 #Pergunta f
 partidaPais = df.groupBy("pais").count()
 partidaPais.write.mode("overwrite").format("parquet").option("compression", "zlib").saveAsTable("trabalho.partida_pais")
